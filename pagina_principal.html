@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">portafolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>¡Hola! Soy Karina Casas.</h1>
+            <p>Desarrolladora web full stack apasionada por construir aplicaciones que conectan tecnología y experiencia de usuario, creando soluciones digitales intuitivas y escalables..</p>
+            <a href="#portfolio" class="btn">Ver Mis Proyectos</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <img src="img/foto yo.jpeg" alt="Tu Foto">
+                <p>Mi aventura en el desarrollo comenzó por curiosidad y se convirtió en una verdadera pasión. Empecé de forma autodidacta, explorando tutoriales y documentación, hasta que logré crear mi primer proyecto funcional. Ese momento de ver código transformarse en una aplicación real fue transformador para mí.</p>
+                <p>Aunque mi experiencia proviene principalmente de proyectos personales, cada uno me ha enseñado lecciones valiosas sobre arquitectura de software, experiencia de usuario y resolución de problemas. He aprendido a depurar código, optimizar rendimiento y, sobre todo, a perseverar cuando las cosas no salen como esperaba.</p>
+                <ul>
+                    <h2> habilidades </h2>
+                    <li>React & JavaScript Moderno: Desarrollo de interfaces interactivas y componentes reutilizables usando React, hooks y JavaScript ES6+. Manejo de estado, routing y integración con APIs.</li>
+                    <li>Node.js & Express: Creación de servidores backend robustos, desarrollo de APIs RESTful, middleware personalizado y manejo de autenticación básica.</li>
+                    <li>Base de Datos & Persistencia: Diseño e implementación de esquemas de datos usando PostgreSQL/MongoDB, operaciones CRUD y modelado de relaciones entre entidades.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <img src="img/logo1.jpeg" alt="Proyecto 1">
+                    <h3>pagina web-heladeria</h3>
+                    <p>En este proyecto realice una pequeña pagina web de una heladeria donde la imagen llamara la atencion del cliente al ver el menu,mi rol fue cumplir con realizar el diseño visual.</p>
+                    <a href="https://karina2025.github.io/ice-cream/" target="_blank" class="btn-small">Ver Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/logo2.jpeg" alt="Proyecto 2">
+                    <h3>juego: calabozos y dragones.</h3>
+                    <p>en este proyecto realize una pagina web donde se podra encontrar informacion e indicaciones sobre el juego calabozos y dragones con guia de como jugarlo y su debidas reglas, mi rol fue realizar el diseño de la pagina y con funciones aplicando su respectiva Api y funcionalidades requeridas para la navegacion.</p>
+                    <a href="https://karina2025.github.io/Proyecto_JavaScript_SanabriaKarina/" target="_blank" class="btn-small">Ver Proyecto</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contáctame</h2>
+            <p>¿Tienes un proyecto en mente o quieres colaborar? ¡Hablemos!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/karina-argenis-sanabria-casas-78791736a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/karina2025" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 karina casas. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

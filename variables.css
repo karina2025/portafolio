@@ -1,0 +1,9 @@
+:root{
+    --color-1:#FFFFFF;
+
+}
+
+@font-face {
+    font-family:"LuckiestGuy-Regular";
+    src: url(fonts/LuckiestGuy-Regular.ttf);
+}
